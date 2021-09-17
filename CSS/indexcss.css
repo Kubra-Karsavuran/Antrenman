@@ -1,0 +1,407 @@
+.menü{
+  color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+.buton1{
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    background: transparent 0.8rem  ;
+    border: 1px white solid;
+}
+.buton1:hover{
+    background-color: white;
+}
+.larn{
+    width: 190px;
+    height: 60px;
+    padding-top: 10px;
+}
+.larn:hover{
+    color: cornflowerblue;
+    font-size: 15px;
+}
+.buton2{
+    width: 200px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    background: transparent 0.8rem  ;
+    border: 1px white solid;
+}
+.buton2:hover{
+    background-color: white;
+}
+.pur:hover{
+    color: cornflowerblue;
+    font-size: 15px;
+}
+.pur{
+    width: 190px;
+    height: 60px;
+    padding-top: 10px; 
+}
+.resim1{
+    background-image: url(https://img-s2.onedio.com/id-56c30b738a1f3f35602f199b/rev-0/w-635/listing/f-jpg-webp/s-c2990dc5232122c7feedb998e2ac862cea7775fe.webp);
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 70%, 0% 100%);
+width: 100%;
+height: 620px;
+background-size: cover;
+}
+.main-color{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #0CA9E8;
+}
+/* ne oldu bakam
+telefonu kapattıgının farkındasındımı.. ben mi kapattım.. evet.. bende biri geldi sen kapattın sandım:) telefon elimde değildi birden kapandıpeki
+peki mi.. şuan bir adam tutturup kendimi öldürtecem :D olddu.. peki demek bir küfürdür :D -_- haaaaayııııır o sence oyle.. evet ama bunu size söylemiştim :D :D 
+site bittikten sonra bu konuşmaları sil ha.. veya silme bakıp bakıp gülersin :D ekran goruntusu aldım:) nedddeen :D bu ilkdefa basıma gekıyor cunku.. ne ilk defa basına geliyooor ?
+bu sekılde iletişim.. ahaha ben alışkınım metin abiyle biz bu şekilde ne destanlar yazdık :D bilge kağan destanı yanımızda boş kalır :D sitem metin abinin yazularıyla 
+dolu :D :D :)komık.. allah razı olsun :D :P dur deneyem bakam olacak mı renk...
+
+veee tataaaamm daha bıtmedı sorulaaaar... Feda olsun sana soooor :D ahahahah gelıyor... Göndeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeer :))))
+burda cercevenın uzerıne gelınce yazı degısıyor ama sım degısmıyor bak bakalım...
+veeee Tataaaaaammm iconları sen değiştirirsin artıkın.. tesekkurler .. sana bu ödevi zaten az önce benim yaptığım işlemleri sen yap die vermiştir :D öğren die...
+artıkın ben yaptım.. öğrenmiş oldun :D bunu ben yaptımdıye yuzume vurcanmı:) yoo neyi vuracam biz neyden bahsediyorduk :) :)))
+
+sana araştırman gereken şeyleri yazıyım..
+
+1) Font Awesome (Nedir, nasıl kullanılır, avantajları)
+2)Bootstrap (Nedir, nasıl kullanılır, avantajları, grid yapısı, an önce kullandığım yapı)
+3) w3school da açtığım bootstrap kısmında.. sol taraftaki kısımları çalış.. kodları incele kendin yaz.. sakın copy paste yapma.. mantıklarını kullanım şekillerini öğren
+3.5) Javascript
+4) JQuery
+5) JSON
+6) AJAX
+7) PHP, Mysql, PDO
+8) Vue.js 
+ahaha şuan ekrana nasıl bir yüz ifadeyile bakıyorsun çok merak ettim :DDDD gormek ısterdın suankı halımı.. ahah bunları yazdım da 
+sadece 1,2,3 kısımlara çalışman yeter şimdilik.. zaman kısıtlaman yok rahatına bak... bu 3 tanesini kavrayınca tabikide porje yapa yapa kavrarsın.. 
+Sonra bana deki Ulan muhsin bunları öğrendim gel buraya hemen bana yeni şeyler ver die :DDDDD sonra 3.5,4 e geçersin :D benleysen ısım kolay ozaman..
+Ben her zaman sana yardımcı olurum yol gösteririm merak etme.. ama tabiki sen çalışacaksın
+calısmak zaten sart yatmak yooooooooooooooooooooooooooooooooooooooooooooook.. sana şöyle söyliyim..
+Bu 1.2.3 kısımlarını tam anlamıyla çalışırsan yani hergün.. 3 veya 4 hafta gibi bir sürede bitirirsin.. daha sonra Javascript JQuery ksımlarını öğrenmen 
+yine 2 ay süreni alır ama tabi uzmanlaşmak yıllar bu herkes için öyle.. sonra diğerlerine geçersin :D anlasıldı.. O yüzden kasma kendimi rahat ol ama çalışmayı ihmal etmek yok.. 
+amaaaaaaan ne yapalım cakısak barı.. amaaaan maman yook herkes çalışıyoooooooooooooooooor.. rakip uyumaz.. :D :)) bazen yoruldumu hıddedıyorum ama yapcak bısı yok olsun bu bolumde boyle..
+evet.. beni yine bizimkiler çağırıyor.. ben kaçıyorum o vakit :D başka sorun var mı yok teseekurler kendın poncık bak... ahaha tamamdır sende kendine cici bak :D
+dikkat et.. ben kaçar :D by
+*/
+.card1{
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 20px;
+}
+.card1:hover{
+   background-color: white;
+   -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+   box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.75);
+}
+.grow:hover{
+   color: rgb(4, 182, 247);
+}
+.resim2{
+    background-image: url(https://memurlar.net/common/news/images/767846/headline.jpg);
+    -webkit-clip-path: polygon(0 23%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 23%, 100% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    position: relative;
+}
+.images2-color{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #0CA9E8;
+    position: absolute;
+}
+.contact1{
+    width: 200px;
+    height: 60px;
+    margin-top: 270px;
+    margin-left: 680px;
+    border-radius: 30px;
+    background: transparent 0.8rem;
+    border: none;
+    border: 1px solid white;
+    font-size: 17px;
+}
+.contact1:hover{
+    background-color: white;
+}
+.contact2{
+    color: white;
+}
+.contact2:hover{
+   text-decoration: none;
+   color: rgb(12, 181, 245);
+}
+.buton41{
+    color: white;
+     padding-top: 10px;
+ }
+ .buton4{
+     width: 170px;
+     height: 60px;
+     background: transparent 0.8px;
+     border: none;
+     border: 1px solid white;
+     background-color: rgb(91, 91, 253);
+     border-radius: 23px;
+     margin-top: 20px;
+ }
+ .mavi{
+    border: 1px solid rgb(231, 227, 227);
+}
+.mavi:hover{
+    -webkit-box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+-moz-box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+transition: ease 0.5s;
+}
+.sarı{
+    border: 1px solid rgb(221, 219, 219);
+}
+.sarı:hover{
+    -webkit-box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+-moz-box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+transition: ease 0.5s;
+}
+.kırmızı{
+    border: 1px solid rgb(226, 221, 221);
+}
+.kırmızı:hover{
+    -webkit-box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+-moz-box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+box-shadow: -1px 0px 40px 8px rgba(121,123,133,1);
+transition: ease 0.5s;
+}
+.card-title{
+    width: 400px;
+}
+.card-title:hover{
+    color: rgb(16, 183, 247);
+}
+.baglama1{
+    background-image: url(https://ie.pgi.com/blog/wp-content/uploads/sites/2/2018/04/iStock_83447201_SMALL-660x330.jpg);
+    -webkit-clip-path: polygon(0 26%, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 26%, 100% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.baglama2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #0CA9E8;
+    position: absolute;
+}
+.erkek1:hover{
+    -webkit-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    -moz-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    transition: ease 0.8s;
+}
+.erkek2:hover{
+    -webkit-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    -moz-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    transition: ease 0.8s;
+}
+.erkek3:hover{
+    -webkit-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    -moz-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    transition: ease 0.8s;
+}
+.erkek4:hover{
+    -webkit-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    -moz-box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    box-shadow: -1px 10px 55px 30px rgba(189,185,189,1);
+    transition: ease 0.8s;
+}
+.sılver{
+    border: 1px solid rgb(179, 177, 177);
+    -webkit-box-shadow: -1px -2px 55px 9px rgba(163,164,168,1);
+    -moz-box-shadow: -1px -2px 55px 9px rgba(163,164,168,1);
+    box-shadow: -1px -2px 55px 9px rgba(163,164,168,1);
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 350px;
+    height: 500px;
+}
+.sılver:hover{
+    background-color: rgb(12, 181, 245);
+    color: white;
+    border: none;
+    height: 590px;
+    width:  top 590px ;
+    height: bottom 590px ;
+    transition: ease 0.3s;
+}
+.plan{
+    color: rgb(97, 94, 94);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 40px;
+    background: transparent 0.8px;
+   border: none;
+   border: 1px solid rgb(99, 96, 96);
+   border-radius: 30px;
+}
+.plan:hover{
+    color: rgb(12, 181, 245);
+    border: none;
+    background-color: white;
+}
+.relative1{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(https://memurlar.net/common/news/images/767846/headline.jpg);
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+}
+.relative2{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #0CA9E8;
+}
+.slider1{
+    background-image: url(images/jpg-white-wall-2.jpg);
+    width: 100%;
+    height: 450px;
+}
+.baglama3{
+    -webkit-clip-path: polygon(0 26%, 100% 0, 100% 100%, 0% 100%);
+clip-path: polygon(0 26%, 100% 0, 100% 100%, 0% 100%);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.baglama4{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background-color: #0CA9E8;
+    position: absolute;
+}
+.contact3{
+    width: 170px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 620px;
+    border-radius: 30px;
+    background: transparent 0.8rem;
+    border: none;
+    border: 1px solid white;
+    font-size: 17px;
+}
+.contact3:hover{
+    background-color: white;
+}
+.contact4{
+    color: white;
+}
+.contact4:hover{
+   text-decoration: none;
+   color: rgb(12, 181, 245);
+}
+.cart1{
+    width: 450px;
+    height: 400px;
+}
+.cart1:hover{
+    color: rgb(12, 181, 245);
+}
+.cart2{
+    width: 450px;
+    height: 400px;
+   margin-left: 50px;
+}
+.cart2:hover{
+    color: rgb(12, 181, 245);
+}
+.cart3{
+    width: 450px;
+    height: 400px;
+    margin-left: 50px;
+    color: rgb(82, 78, 78);
+}
+.cart3:hover{
+    color: rgb(12, 181, 245);
+}
+.readmore{
+    border: none;
+    background: transparent 0.8px;
+   
+    color:  rgb(73, 71, 71) ;
+}
+.readmore:hover{
+    color:  rgb(12, 181, 245);
+}
+.resim{
+   background-color:rgb(0, 31, 55);
+    -webkit-clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+      clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
+     width: 100%;
+     height: 620px;
+     background-size: cover;
+}
+.face{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 30px;
+    filter: grayscale(2);
+}
+.face:hover{
+    filter: grayscale(0);
+}
+.gmail{
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.gmail:hover{
+    text-decoration: none;
+}
+.input{
+    margin-top: 20px;
+    margin-left: 50px;
+   width: 270px;
+   height: 50px;
+   border: none;
+   border-radius: 30px;
+  color: black;
+  padding-left: 10px;
+  outline: none;
+}
+.input:hover{
+    -webkit-box-shadow: 1px 2px 33px 2px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 2px 33px 2px rgba(255,255,255,1);
+    box-shadow: 1px 2px 33px 2px rgba(255,255,255,1);
+}
+
+
